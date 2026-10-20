@@ -50,38 +50,6 @@ Klicka på en etikett: fältet ska få fokus. Tabba genom formuläret utan mus: 
 
 Kör både `index.html` och `kontakt.html` genom W3C-validatorn.
 
-## AI-spåret (nivå 1: Förklara och granska)
-
-**Be AI om checklistan, bygg formuläret själv** (cirka 20 minuter, efter att du gjort din egen lösning)
-
-AI är din granskare och förklarare. AI skriver inte din lösning. En bra checklista är mer värd än färdig kod, eftersom du kan använda den på varje formulär du bygger i framtiden.
-
-Regler: egen lösning först, du ska kunna förklara varje rad, och du loggar i `docs/ai-logg.md` i `mitt-projekt`. Reglerna finns i `AI-REGLER.md` i `mitt-projekt`.
-
-1. Be AI om en checklista (utan kod) med prompten nedan.
-2. Jämför med ditt eget formulär: vad har du, vad saknas?
-3. Rätta luckorna själv. Skriv koden med egna händer.
-4. Testa med tangentbordet och med Lighthouse.
-5. Skriv i ai-loggen: vilka punkter var nya för dig, och vilka var överdrivna eller fel?
-
-Prompt att utgå från:
-
-```
-Lista som checklista vad ett tillgängligt
-bokningsformulär måste uppfylla:
-etiketter, fälttyper, gruppering,
-felmeddelanden och tangentbord.
-Ge ingen kod, bara punkter.
-```
-
-**Kontrollera med:**
-
-- Klicka på varje etikett: får fältet fokus?
-- Fyll i formuläret med bara tangentbordet.
-- Kör Lighthouse (Accessibility).
-
-**I ditt projekt:** Gå igenom checklistan på formuläret i ditt projekt.
-
 ## Kontrollista: så vet du att du är klar
 
 - [ ] Varje formulärfält har en etikett som är kopplad med `for`/`id`.
@@ -91,17 +59,12 @@ Ge ingen kod, bara punkter.
 - [ ] Du kan fylla i hela formuläret med enbart tangentbordet.
 - [ ] Båda sidorna validerar utan fel.
 - [ ] Filerna är uppladdade till din fork och länken är inskickad.
-- [ ] Du har gjort AI-uppgiften och skrivit en post i `docs/ai-logg.md`.
 
 ## Tips om du fastnar
 
 - Klick på etiketten gör ingenting? Då är `for` och `id` inte identiska (stor/liten bokstav räknas).
 - Radioknapparna går att välja flera av? De behöver exakt samma `name`.
 - Placeholder är inte en etikett! Den försvinner när man skriver och läses inte alltid upp.
-
-## Ditt projekt: Dagens steg i `mitt-projekt`
-
-Efter övningen här jobbar du vidare i ditt eget projekt (din design från modul 3). Dagens steg står i `PROJEKTSTEG.md` i ditt repo `mitt-projekt`, under **Dag 2**. Det är där ditt riktiga arbete växer. Övningen här är träningsbanan.
 
 ## Inlämning
 
@@ -110,8 +73,7 @@ Efter övningen här jobbar du vidare i ditt eget projekt (din design från modu
 I formuläret fyller du i:
 
 1. Länk till din fork av det här repot.
-2. Länk till ditt `mitt-projekt`.
-3. Reflektion: Förklara med egna ord varför en `placeholder` inte kan ersätta en `label`.
+2. Reflektion: Förklara med egna ord varför en `placeholder` inte kan ersätta en `label`.
 
 ## Vill du mer? (frivilligt)
 
