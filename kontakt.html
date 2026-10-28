@@ -29,15 +29,15 @@
 
       <div class="field">
         <label for="name">Namn *</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" required autocomplete="name" placeholder="För- och efternamn" minlength="2" maxlength="100">
       </div>
       <div class="field">
         <label for="email">E-postadress *</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" required autocomplete="email">
       </div>
       <div class="field">
         <label for="phone">Telefon (valfritt)</label>
-        <input type="tel" id="phone" name="phone">
+        <input type="tel" id="phone" name="phone" autocomplete="tel">
       </div>
       <div class="field">
         <label for="date">Datum *</label>
@@ -74,8 +74,7 @@
       </fieldset>
 
       <label for="requests">Övriga önskemål</label>
-      <textarea id="requests" name="requests" rows="4"></textarea>
-
+      <textarea id="requests" name="requests" rows="5" maxlength="500"></textarea>
 
       <br>
       <input type="checkbox" id="consent" name="consent" required>
@@ -83,7 +82,6 @@
 
       <br>
       <button type="submit">Skicka bokning</button>
-
 
     </form>
 
